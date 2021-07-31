@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+
+# This is a POC for react and node in a monorepo built with CRA
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Reference
 
-In the project directory, you can run:
+https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/
+
+## Run the server
+
+In the project directory run the server:
+
+### `yarn start`
+
+
+## Run the client
+
+Go to client directory and run:
 
 ### `yarn start`
 
@@ -68,3 +80,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Deployment
+
+This app is deployed on https://react-node-monorepo.herokuapp.com/api using heroku
+
+`heroku login`
+`git push heroku master`
